@@ -1,6 +1,9 @@
--------------------------------
-ZenDrive Coding Challenge
--------------------------------
+
+A web app which plots nearby restaurants on a map.Initially uses the current user location using Geolocation API. When the user keys in a locality in the search field, it will fetch the restaurants near it using google Places API.
+
+
+
+
 
 
 1. I have used plain JS, few jquery manipulation and bootstrap framework for completing the task.
