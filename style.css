@@ -1,0 +1,52 @@
+.hColor{
+
+    background-color: #00FFFF;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.headerOne{
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#map{
+  height: 645px;
+  width: 645px;
+}
+
+#txtSearch{
+width: 250px;
+}
+
+.postContainer {
+    margin: 0 0 0 0;  
+    border-style:solid;
+    border-width: 0 0 0.5px 0;
+    border-color: #D3D3D3;
+    overflow: auto
+}
+.postThumb {
+    float: right;
+}
+.postThumb img {
+    display: block;
+    padding:10px;
+
+}
+.postContent {
+
+  font-size: 12px;
+}
+.postTitle {
+    font-weight: normal;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.text{
+padding-left: 10px;
+
+}

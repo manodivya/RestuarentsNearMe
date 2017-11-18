@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Map App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <!-- Holder JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDySPn5BYFQE61IeZLqtPRw4pNoQp3YuDY&libraries=places&callback=initMap"
+         async defer></script>
+
+    <!-- JS Source -->
+     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    
+    <script type="text/javascript" src="content.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header hColor">
+        <div class="text-muted headerOne">EATR</div>
+        <div>
+    <form class="form-inline">
+   <input type="text" class="form-control" placeholder="Search" id="inputText"><button class="btn btn-default" type="submit" id="add-location">
+        <i class="glyphicon glyphicon-search"></i>
+      </button>
+  </input>
+   
+    </form>
+
+
+    </div>
+    </div>
+    <!-- Map and Side Panel -->
+    <div class="row content">
+        <!-- Google Map -->
+        <div class="col-md-7">
+            <div id="map"></div>
+        </div>
+        <!-- Side Panel -->
+        <div class="col-md-5">
+            <div class="panel panel-default" id="rightHand">
+                <!-- Panel Title -->
+            </div>
+        </div>
+    </div>
+    <hr/>
+   
+</div>
+</body>
+</html>
